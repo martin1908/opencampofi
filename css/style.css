@@ -324,7 +324,7 @@ h1{
 }
 #header .logo img{
 	display: block;
-    margin-top: -30px;
+    margin-top: -42px;
     /* left: -12px; */
     margin-left: -25px;
 }
@@ -335,8 +335,7 @@ h1{
 }
 .right-bar .social{
 	padding:0;
-	margin:0 0 0 84px;
-	float:right;
+
 	list-style:none;
 }
 .right-bar .social li{
@@ -557,7 +556,7 @@ h1{
 	font-style:normal;
 	color:#f6bb00;
 }
-.factory-banner .text-holder h1:after{
+/*.factory-banner .text-holder h1:after{
 	top:-40px;
 	left:-36px;
 	width:103px;
@@ -567,7 +566,7 @@ h1{
 	position:absolute;
 	background:url(../images/icon-setting.png) no-repeat;
 }
-
+*/
 .factory-banner .text-holder span{
 	color:#fff;
 	z-index:9;
@@ -1602,7 +1601,7 @@ h1{
 	width:340px;
 	color:#999;
 	font-size:13px;
-	margin:0 80px 0 0;
+	margin:0 270px 0 0;
 }
 .footer-column .title{
 	color:#f6bb00;
@@ -1662,7 +1661,7 @@ h1{
 .footer-column .column-2{
 	float:left;
 	width:150px;
-	margin:0 50px 0 0;
+	margin:0 270px 0 0;
 }
 .footer-column .link-list{
 	padding:0;
@@ -4182,6 +4181,10 @@ button.close{
 	.factory-banner.industory img{
 		height:330px;
 	}
+	.right-bar .social {
+    padding: 0;
+    list-style: none;
+    margin-left: -104px;
 }
 
 
@@ -4238,6 +4241,7 @@ button.close{
 	}
 	.right-bar .social{
 		margin:0 0 0 10px;
+		margin-left: -107px;
 	}
 	.factory-banner .text-holder{
 		width:900px;
@@ -4378,6 +4382,7 @@ button.close{
 	.sidenav{
 		top:180px;
 	}
+	
 }
 
 
@@ -4395,6 +4400,10 @@ button.close{
 }
 
 @media only screen and ( max-width : 991px ){
+	.right-bar .social {
+    margin: 0 0 0 10px;
+    margin-left: -107px;
+}
 	.right-bar{
 		width:80%;
 	}
@@ -4668,9 +4677,16 @@ button.close{
 		padding:0 20px;
 		position:absolute;
 	}
+
+	#header .logo{
+		margin-left: 150px
+	}
+
 	.right-bar .social{
-		float:left;
-		margin:0;
+	float: left;
+    margin: 0;
+    margin-left: 29px;
+    margin-top: -26px;
 	}
 	.right-bar .dropdown{
 		float:right;
@@ -4716,7 +4732,7 @@ button.close{
 	.factory-banner .text-holder{
 		border:0;
 		width:100%;
-		padding:10px;
+
 		margin:-96px 0 0;
 	}
 	.factory-banner .text-holder:after,
@@ -5062,6 +5078,7 @@ button.close{
 	}
 	.text-holder.industry .title{
 		margin:0 0 10px;
+		margin-top: 60px;
 	}
 	#header.construction .right-bar .dropdown,
 	.menu_2{
@@ -5466,4 +5483,48 @@ button.close{
 	.tab-area .nav-tabs > li > a{
 		padding: 12px 5px;
 	}
+
+}
+@media only screen and ( max-width : 480px ){
+	#header .logo img {
+    display: block;
+    margin-top: -25px;
+    /* left: -12px; */
+    margin-left: -100px
+}
+	.right-bar .social {
+    float: left;
+    margin: 0;
+    margin-left: 120px;
+    margin-top: -20px;
+   
+}
+}
+
+@media only screen and ( max-width : 360px ){
+	#header .logo img {
+    display: block;
+    margin-top: -25px;
+    /* left: -12px; */
+    margin-left: -25px
+}
+}
+@media only screen and ( max-width : 320px ){
+	#header .logo img {
+    display: block;
+    margin-top: -25px;
+    /* left: -12px; */
+    margin-left: -190px
+}
+.right-bar .social {
+    float: left;
+    margin: 0;
+    margin-left: 19px;
+    margin-top: -16px;
+}
+.social.numero{
+	margin-top: 21px !important;
+    margin-left: 10px !important;
+}
+}
   /* estilos nuevos*/
