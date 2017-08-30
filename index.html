@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<!-- title of the page -->
 	<title>OperCampServis</title>
@@ -17,7 +18,13 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i%2cMontserrat:400,700%2cPT+Serif:400,400i,700,700i%2cPoppins:300,400,500,600,700%2cRaleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i%2cMontserrat:400,700%2cPT+Serif:400,400i,700,700i%2cPoppins:300,400,500,600,700%2cRaleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<script  src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script> 
+	<script>
+		var blazy = new Blazy{
+			selector: 'img'
+		});
+	</script>
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,11 +55,11 @@
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left: -60px;    margin-top: 21px;">
-								<ul class="nav navbar-nav">
+								<ul class="nav navbar-nav" style="margin-left: 80px;">
 									
 										
 									</li>
-									<li class="active"><a href="inicio.html">Inicio</a>
+									<li class="active"><a href="index.html">Inicio</a>
 										
 									</li>
 									<li><a href="nosotros.html">Nosotros</a>
@@ -85,12 +92,14 @@
 							</div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
 					</nav>
-					<div class="numero" style="margin-top:  -30px">
+				<div class="menu-contactos">
+					<div class="numero" style="margin-top:  -20px;display: flex;justify-content: center;">
 						<h1 style="font-size: 10px;color:#f6bb00;">Telefono:<span style="font-size: 10px;color: white;">051-530597/+51984738954</span></h1>
-					</div>
-					<div class="sociales">
 
-						<ul class="social">
+					</div>
+					<div class="sociales" style="display: flex;margin-top: -28px;margin-left: -40px;">
+
+						<ul class="social" style="margin-left: -140px;">
 							<li style="margin: 0 26px;"><a target="_blank" href="https://www.facebook.com/Opercampservis/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 							<li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
@@ -100,7 +109,7 @@
 
 						</ul>
 					</div>
-
+				</div>	
 				</div>
 			</div>
 		</header>
@@ -121,7 +130,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="images/header.jpg" width="1920" height="900" alt="image" class="img">
+						<img src="images/header2.jpg" width="1920" height="900" alt="image" class="img">
 						<div class="text-holder">
 							<span>SERVICIOS GENERALES.</span>
 							<h1>OPERCAMP</h1>
@@ -132,7 +141,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="images/header.jpg" width="1920" height="900" alt="image" class="img">
+						<img src="images/header3.jpg" width="1920" height="900" alt="image" class="img">
 						<div class="text-holder">
 							<span>SERVICIOS GENERALES</span>
 							<h1>OPERCAMP</h1>
@@ -157,7 +166,7 @@
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="footer-logo"><a href="#"><img src="images/logo3.png" width="243" height="34" alt="factory" class="img-logo2"></a></div>
+					<div class="footer-logo"><a href="#"><img src="images/logo3.png" data-src="images/logo3.png" width="243" height="34" alt="OperCompany" class="img-logo2"></a></div>
 					<span class="footer-text">Mantenimiento de estructura metálica, pintura de interiores, exteriores e Industrial, electricidad general, obras civiles, gasfitería, fabricación, Mantenimiento e instalaciones de campamentos minerosMontaje, desmontaje y mantenimiento</span>
 					<ul class="footer-list">
 						<li><a target="_blank" href="https://www.facebook.com/Opercampservis/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -175,9 +184,9 @@
 							<span class="email"><img src="images/iconos/mensaje.png" alt=""><a href="mailto:Info@opercamp.come">Info@opercamp.com</a></span>
 						</div>
 						<div class="column-2">
-							<span class="title">USERFULL LINK</span>
+							<span class="title"> LINKS</span>
 							<ul class="link-list">
-								<li><a href="inicio.html">INICIO</a></li>
+								<li><a href="index.html">INICIO</a></li>
 								<li><a href="nosotros.html">NOSOTROS</a></li>
 								<li><a href="Servicios.html">SERVICIOS</a></li>
 								<li><a href="equipo.html">NUESTRO EQUIPO</a></li>
@@ -185,8 +194,9 @@
 							</ul>
 						</div>
 						<div class="column-4">
-							<span class="title">INSTAGRAM FOLLOW</span>
-							<p>Unable to show instagram photos</p>
+							<span class="title">NOSOTROS</span>
+								<p>En OPERCAMP SERVIS E.I.R.L queremos alcanzar a nuestros clientes una propuesta integral para el...<li style="text-decoration: none;list-style: none;"><a href="nosotros.html" style="color: #f6bb00;text-transform: uppercase;list-style: none;">Leer más</a></li> </p>
+								
 							<img src="images/img25.png" width="160" height="111" alt="image">
 						</div>
 					</div>
